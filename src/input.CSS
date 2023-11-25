@@ -1,0 +1,17 @@
+/* Hide radio buttons */
+.product-rating input {
+   display: none;
+ }
+ 
+ /* Style the star icons */
+ .product-rating label {
+   font-size: 24px;
+   color: #ccc;
+   cursor: pointer;
+ }
+ 
+ /* Style the selected/starred icons */
+ .product-rating input:checked ~ label {
+   color: #FFD700; /* Warna bintang yang terpilih */
+ }
+ 
